@@ -199,7 +199,7 @@ polyglot.extend({
 
 English (and German, Spanish, Italian, and a few others) there are only two plural forms: singular and not-singular.
 
-Some languages get a bit more complicated. In Czech, there are three separate forms: 1, 2 through 4, and 5 and up. Russian is even crazier.
+Some languages get a bit more complicated. In Czech, there are four separate forms: 1, 2 through 4, decimal numbers, and 5 and up. Russian is even more complicated.
 
 `polyglot.t()` will choose the appropriate phrase based
 on the provided `smart_count` option, whose value is a number.

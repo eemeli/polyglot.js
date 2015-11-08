@@ -50,6 +50,7 @@ For use with Node, install with [NPM](http://npmjs.org):
 
       pluralize
         ✓ should support pluralization with an integer
+        ✓ should support pluralization with a string representation of a number
         ✓ should accept a number as a shortcut to pluralize a word
 
       locale

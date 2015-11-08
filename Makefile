@@ -3,7 +3,7 @@ clean:
 
 build-js:
 	@mkdir -p build
-	@cp ./lib/polyglot.js ./build/polyglot.js
+	@./node_modules/.bin/browserify ./lib/polyglot.js --standalone Polyglot --outfile ./build/polyglot.js
 	@./node_modules/.bin/uglifyjs -o ./build/polyglot.min.js ./lib/polyglot.js
 	@gzip -c ./build/polyglot.min.js > ./build/polyglot.min.js.gz
 
